@@ -27,6 +27,8 @@ def rollback_model2_data(apps, schema_editor):
             attr1=new_model2.attr1,
             attr2=new_model2.attr2
         )
+    # データ移行が完了したら移行元データを削除する
+    new_model2_model.objects.all().delete()
 
 
 class Migration(migrations.Migration):
