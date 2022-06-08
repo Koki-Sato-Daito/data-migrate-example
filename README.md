@@ -1,7 +1,4 @@
 ﻿# アプリケーションを超えてデータマイグレーション
- 
-## Github
-- https://github.com/Koki-Sato-Daito/data-migrate-example
 
 ## 状況説明
 ‐ 複数モデルを定義したアプリケーションがあります。
